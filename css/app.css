@@ -1371,16 +1371,18 @@ body {
 }
 .footer-bottom {
   background-color: #000000;
-  padding: 13px 100px 13px 239px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 13px 0;
   font-weight: 700;
 }
 .footer-bottom span {
   font-size: 12px;
   line-height: 1.25;
   color: #ffffff;
+}
+.footer-pc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .footer-privacy span {
   padding-left: 50px;
@@ -1390,10 +1392,6 @@ body {
 @media screen and (max-width: 1279px) {
   .footer-main {
     gap: 0 160px;
-  }
-
-  .footer-bottom {
-    padding: 13px 22px 13px 14px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -1407,10 +1405,6 @@ body {
 
   .footer-heading {
     margin-bottom: 20px;
-  }
-
-  .footer-bottom {
-    padding: 13px 29px 13px 14px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1438,11 +1432,10 @@ body {
   .footer-bottom {
     flex-direction: column;
     gap: 10px 0;
-    padding: 13px 50px;
   }
 
   .footer-bottom span {
-    font-size: 11px;
+    font-size: 7px;
   }
 }
 

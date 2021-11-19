@@ -63,10 +63,10 @@
   }
   &-bottom {
     background-color: #000000;
-    padding: 13px 100px 13px 239px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 13px 0;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
     font-weight: 700;
     span {
       font-size: 12px;
@@ -74,19 +74,26 @@
       color: #ffffff;
     }
   }
+  &-pc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // gap: 880px;
+  }
   &-privacy {
     span {
       padding-left: 50px;
       color: $color1;
     }
   }
+
 }
 @media screen and (max-width: 1279px) {
   .footer-main {
     gap: 0 160px;
   }
   .footer-bottom{
-    padding: 13px 22px 13px 14px;
+    // padding: 13px 22px 13px 14px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -100,7 +107,7 @@
     margin-bottom: 20px;
   }
   .footer-bottom{
-    padding: 13px 29px 13px 14px;
+    // padding: 13px 29px 13px 14px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -124,9 +131,9 @@
   .footer-bottom {
     flex-direction: column;
     gap: 10px 0;
-    padding: 13px 50px;
+    // padding: 13px 50px;
   }
   .footer-bottom span{
-    font-size: 11px;
+    font-size: 7px;
   }
 }
