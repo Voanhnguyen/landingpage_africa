@@ -85,16 +85,17 @@
   }
 }
 .bgc {
-  top: 280px;
+  top: 150px;
   z-index: -1;
-  width: 924px;
+  left: -200px;
+  width: 1100px;
 }
 @media screen and (max-width: 1279px) {
   .bgc img {
     width: 95%;
   }
   .contact-us {
-    padding-left: 610px;
+    padding-left: 585px;
   }
   .contact-newsletter {
     margin-bottom: 50px;
@@ -109,8 +110,8 @@
     font-size: 30px;
   }
   .bgc {
-    left: -20%;
-    top: 300px;
+    left: -40%;
+    top: 123px;
   }
 }
 @media screen and (max-width: 1023px) {

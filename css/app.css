@@ -1226,9 +1226,10 @@ body {
 }
 
 .bgc {
-  top: 280px;
+  top: 150px;
   z-index: -1;
-  width: 924px;
+  left: -200px;
+  width: 1100px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -1237,7 +1238,7 @@ body {
   }
 
   .contact-us {
-    padding-left: 610px;
+    padding-left: 585px;
   }
 
   .contact-newsletter {
@@ -1253,8 +1254,8 @@ body {
   }
 
   .bgc {
-    left: -20%;
-    top: 300px;
+    left: -40%;
+    top: 123px;
   }
 }
 @media screen and (max-width: 1023px) {
@@ -1374,11 +1375,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-weight: 700;
 }
 .footer-bottom span {
   font-size: 12px;
   line-height: 1.25;
-  font-weight: 400;
   color: #ffffff;
 }
 .footer-privacy span {
@@ -1438,6 +1439,10 @@ body {
     flex-direction: column;
     gap: 10px 0;
     padding: 13px 50px;
+  }
+
+  .footer-bottom span {
+    font-size: 11px;
   }
 }
 
