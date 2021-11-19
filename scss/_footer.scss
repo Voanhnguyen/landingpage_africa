@@ -85,6 +85,9 @@
   .footer-main {
     gap: 0 160px;
   }
+  .footer-bottom{
+    padding: 13px 22px 13px 14px;
+  }
 }
 @media screen and (max-width: 1023px) {
   .footer-main {
@@ -95,6 +98,9 @@
   }
   .footer-heading {
     margin-bottom: 20px;
+  }
+  .footer-bottom{
+    padding: 13px 29px 13px 14px;
   }
 }
 @media screen and (max-width: 767px) {

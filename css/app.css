@@ -750,6 +750,10 @@ body {
     gap: 0 13px;
     margin-bottom: 30px;
   }
+
+  .courses-link {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 767px) {
   .courses-list {
@@ -1386,6 +1390,10 @@ body {
   .footer-main {
     gap: 0 160px;
   }
+
+  .footer-bottom {
+    padding: 13px 22px 13px 14px;
+  }
 }
 @media screen and (max-width: 1023px) {
   .footer-main {
@@ -1398,6 +1406,10 @@ body {
 
   .footer-heading {
     margin-bottom: 20px;
+  }
+
+  .footer-bottom {
+    padding: 13px 29px 13px 14px;
   }
 }
 @media screen and (max-width: 767px) {
